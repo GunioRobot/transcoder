@@ -20,7 +20,7 @@ class Transcoder
         profiles = Transcoder::Profiles.new(options)
 
         begin
-         
+
           trans = Transcoder.new(profiles, options)
 
           case(options[:cmd])

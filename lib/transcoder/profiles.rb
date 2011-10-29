@@ -34,7 +34,7 @@ class Transcoder
 
       # List device info
       def list(device)
-        
+
         unless @devices[device]
           raise(Transcoder::InvalidDevice, "Specified device does not exist! #{device}\n")
           return

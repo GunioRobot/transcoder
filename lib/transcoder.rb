@@ -36,7 +36,7 @@ class Transcoder
 
     # Select the conversion mode
     # TODO/FIXME: only one config is present.
-    @options[:profile] = @profiles.devices[@options[:device]].modes[0] 
+    @options[:profile] = @profiles.devices[@options[:device]].modes[0]
 
     # Run the conversion
     case @options[:profile][:encoder]

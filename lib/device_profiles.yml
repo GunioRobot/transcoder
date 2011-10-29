@@ -33,7 +33,7 @@ ipod_touch:
         acodec: libfaac
         ar: 44100
         ab: 131072
-    
+
         # Arithmetic coder
         ac: 2
 
@@ -43,10 +43,10 @@ ipod_touch:
 
         # Flags
         flags: "+loop -cmp +chroma"
-    
+
         # Partitions
         partitions: "+parti4x4+partp8x8+partb8x8"
-    
+
         # Motion Estimation Method
         me_method: umh
         subq: 5
@@ -56,13 +56,13 @@ ipod_touch:
 
         # Motion Range Vectors
         me_range: 16
-   
+
         # Group of picture size
         g: 300
-    
+
         # IDR Frame interval min
         keyint_min: 25
-    
+
         # Scene change threshold
         sc_threshold: 40
 
@@ -109,4 +109,4 @@ psp:
     - :name: default
       :encoder: :ffmpeg
       :description: Default Settings.
-    
+

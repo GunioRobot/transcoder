@@ -1,9 +1,9 @@
 class Transcoder
   class Profiles
-    
+
     # Target device
     module Device
-    
+
       def info(depth = 0, indent = " ")
         offset_str = indent * depth
         print offset_str + "Device Name: #{self[:name]}\n"
@@ -15,9 +15,9 @@ class Transcoder
       end
 
       def description
-        self[:description]    
+        self[:description]
       end
-      
+
       def display
         self[:display]
       end
@@ -33,7 +33,7 @@ class Transcoder
     end
 
     module Devices
-      
+
       def info(depth = 0, indent = " ")
         offset_str = indent * depth
         print offset_str + "Contains #{self.size} device profiles.\n"
